@@ -16,6 +16,14 @@ def main():
     print(f"Screen width: {SCREEN_WIDTH}")
     print(f"Screen height: {SCREEN_HEIGHT}")
 
+    #all the objects that can be updated
+    updatable = pygame.sprite.Group()
+
+    #all the objects that can be drawn
+    drawable = pygame.sprite.Group()
+
+    Player.containers = (updatable, drawable)
+
     #Initiating a player object 
     player = Player(x = SCREEN_WIDTH/2, y = SCREEN_HEIGHT/2)
 
@@ -26,9 +34,10 @@ def main():
                 return
         screen.fill("black")
         
-        Player.update(player, dt)
+        updatable.update(dt)
 
-        Player.draw(player, screen)
+        for obj in drawable:
+            obj.draw(screen)
 
         pygame.display.flip()
 
