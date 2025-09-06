@@ -24,6 +24,3 @@ Fly your ship, dodge incoming asteroids, and survive as long as you can while yo
 git clone https://github.com/sujitanireddy/Asteroids.git
 cd Asteroids
 python3 game.py
-
-
-
