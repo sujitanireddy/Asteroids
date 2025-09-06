@@ -1,25 +1,29 @@
 # Asteroids
-A modern remake of the classic Asteroids arcade game (1979) built with Python and Pygame. 
+A modern remake of the classic Asteroids arcade game (1979) built with Python and Pygame.  
 Fly your ship, dodge incoming asteroids, and survive as long as you can while your score increases over time.
 
+---
+
 # Controls 
-WASD → Move & Rotate
+- WASD → Move & Rotate  
+- Spacebar → Shoot  
+- R → Restart after game over  
 
-Spacebar → Shoot
-
-R → Restart after game over
-
-# Installation and Running
-
-**git clone https://github.com/sujitanireddy/Asteroids.git**
-
-**cd Asteroids**
-
-**python3 game.py**
-
+---
 
 # Screenshots
 ![Playing Screen](https://raw.githubusercontent.com/sujitanireddy/Asteroids/refs/heads/main/screenshots/Game.png)
 
 ![Restart Game Screen](https://raw.githubusercontent.com/sujitanireddy/Asteroids/refs/heads/main/screenshots/Player_dead.png)
+
+---
+
+# Running
+
+```bash
+git clone https://github.com/sujitanireddy/Asteroids.git
+cd Asteroids
+python3 game.py
+
+
 
