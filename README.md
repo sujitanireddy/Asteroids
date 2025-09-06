@@ -4,7 +4,9 @@ Fly your ship, dodge incoming asteroids, and survive as long as you can while yo
 
 # Controls 
 WASD → Move & Rotate
+
 Spacebar → Shoot
+
 R → Restart after game over
 
 # Screenshots
