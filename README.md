@@ -9,13 +9,13 @@ Spacebar → Shoot
 
 R → Restart after game over
 
-#Installation and Running
+# Installation and Running
 
-git clone https://github.com/sujitanireddy/Asteroids.git
+**git clone https://github.com/sujitanireddy/Asteroids.git**
 
-cd Asteroids
+**cd Asteroids**
 
-python3 game.py
+**python3 game.py**
 
 
 # Screenshots
